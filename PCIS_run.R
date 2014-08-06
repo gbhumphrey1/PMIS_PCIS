@@ -1,4 +1,4 @@
-source("PMI_IVS.R")
+source("PMI_PCIS.R")
 
 ### Comment the below out if not using shell script to run code and just enter
 ### values for 'fn' and 'dat.dir' manually..
