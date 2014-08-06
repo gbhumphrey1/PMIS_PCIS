@@ -1,7 +1,7 @@
 PMIS_PCIS
 =========
 
-R scripts used to implement the PMIS and PCIS input variable selection (IVS) algorithms described in Humphrey et. al. The PMIS algorithm is a filter IVS method developed by Sharma (2000) and later modified by Bowden et al. (2005) and May et al. (2008), where the relevance of potential inputs is evaluated based on the mutual information (MI) between each input variable and the output. The PCIS algorithm (May et al., 2008) is also a filter IVS method, where input relevance is based on partial correlation analysis. Further details of these algorithms can be found in:
+R scripts used to implement the PMIS and PCIS input variable selection (IVS) algorithms described in Humphrey et. al. The PMIS algorithm is a filter IVS method developed by Sharma (2000) and later modified by Bowden et al. (2005) and May et al. (2008), where the relevance of potential inputs is evaluated based on the mutual information (MI) between each input variable and the output. The PCIS algorithm (May et al., 2008) is also a filter IVS method, where input relevance is based on partial correlation analysis. Further details of this particular implementation of these algorithms can be found in:
 
 Humphrey, G.B., S. Galelli, H.R. Maier, A. Castelletti, G.C. Dandy and M.S. Gibbs (*under review*), An evaluation framework for input variable selection algorithms for environmental data-driven models, *Environmental Modelling & Software*.
 
