@@ -11,7 +11,7 @@ dat.dir <- args[2]   #  dataset - e.g. 'Bank'
 
 # Read in data
 # ----
-out.dir <- paste("~/IVS/Part_2/Results/PCIS/", dat.dir, "/", sep = "")
+out.dir <- paste("~/", dat.dir, "/", sep = "")
 
 inp.file <- fn
 fn <- unlist(strsplit(fn, split = "/"))
