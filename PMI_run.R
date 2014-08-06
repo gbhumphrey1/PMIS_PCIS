@@ -1,4 +1,4 @@
-source("PMI_IVS.R")
+source("PMI_PCIS.R")
 
 ### Comment the below out if not using shell script to run code and just enter
 ### values for 'fn' and 'dat.dir' manually..
@@ -12,7 +12,7 @@ dat.dir <- args[2]   #  dataset - e.g. 'Bank'
 
 # Read in data
 # ----
-out.dir <- paste("~/IVS/Part_2/Results/", dat.dir, "/", sep = "")
+out.dir <- paste("~/", dat.dir, "/", sep = "")
 
 inp.file <- fn
 fn <- unlist(strsplit(fn, split = "/"))
