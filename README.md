@@ -8,7 +8,7 @@ Humphrey, G.B., S. Galelli, H.R. Maier, A. Castelletti, G.C. Dandy and M.S. Gibb
 Contents:
 * `PMI_PCIS.R`: code to implement the PMIS and PCIS algorithms.
 * `PMIS_run.R`: run the PMIS algorithm to select the most relevent inputs for a given set of input data.
-* `PCIS_run.R`: run the PCIS IVS algorithm to select the most relevant inputs for a given set of input data.
+* `PCIS_run.R`: run the PCIS algorithm to select the most relevant inputs for a given set of input data.
 * `inp_dat.csv`: an example input data file. Column 1 contains an array of data labels or IDs (e.g. dates on which data were recorded); columns 2 to P+1 contain the P candidate input variables; and column P+2 contains the response variable, while the rows are data points. The first row contains the variable names.
 
 To run the PMIS algorithm, the following command should be used:
