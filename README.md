@@ -1,9 +1,12 @@
 PMIS_PCIS
 =========
 
-R scripts used to implement the PMIS and PCIS input variable selection (IVS) algorithms described in Humphrey et. al. The PMIS algorithm is a filter IVS method developed by Sharma (2000) and later modified by Bowden et al. (2005) and May et al. (2008), where the relevance of potential inputs is evaluated based on the mutual information (MI) between each input variable and the output. The PCIS algorithm (May et al., 2008) is also a filter IVS method, where input relevance is based on partial correlation analysis. Further details of this particular implementation of these algorithms can be found in:
+R scripts used to implement the PMIS and PCIS input variable selection (IVS) algorithms as part of the IVS4EM project described in Galelli et. al. (2014). The PMIS algorithm is a filter IVS method developed by Sharma (2000) and later modified by Bowden et al. (2005) and May et al. (2008), where the relevance of potential inputs is evaluated based on the mutual information (MI) between each input variable and the output. The PCIS algorithm (May et al., 2008) is also a filter IVS method, where input relevance is based on partial correlation analysis. Further details of this particular implementation of these algorithms can be found in:
 
-Humphrey, G.B., S. Galelli, H.R. Maier, A. Castelletti, G.C. Dandy and M.S. Gibbs (*under review*), An evaluation framework for input variable selection algorithms for environmental data-driven models, *Environmental Modelling & Software*.
+Galelli S., Humphrey G.B., Maier H.R., Castelletti A., Dandy G.C. and Gibbs M.S. (2014)  An evaluation framework for input variable selection algorithms for environmental data-driven models, *Environmental Modelling and Software*, 62, 33-51, DOI: 10.1016/j.envsoft.2014.08.015. ([Link to Paper](http://www.sciencedirect.com/science/article/pii/S1364815214002394))
+
+The purpose of the IVS4EM project is to support a comprehensive framework for the testing and evaluation of IVS algorithms, through the sharing of algorithms (open source code), datasets, and evalution criteria. ([Link to IVS4EM Website](http://ivs4em.deib.polimi.it/))
+
 
 Contents:
 * `PMI_PCIS.R`: code to implement the PMIS and PCIS algorithms.
