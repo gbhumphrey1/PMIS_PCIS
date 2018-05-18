@@ -16,7 +16,7 @@ Contents:
 
 To run the PMIS algorithm, the following command should be used:
 
-`R --args [`*filename*`] [`*out_dir*`] < PMIS_run.R`
+`R --args [`*filename*`] [`*out_dir*`] < PMI_run.R`
 
 where *filename* is the name of the name of the input data file (including path) and *out_dir* is the name of the output directory (i.e. the directory to which results will be written. This name should *NOT* include the whole path). The PCIS algorithm is run similarly.
 
